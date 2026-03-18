@@ -1,0 +1,40 @@
+nohup: ignoring input
+Indexed: I Wish I had More Hate in Me
+Indexed: 4 Jaw-dropping Books On Medicine For Non-Doctors
+Indexed: 5 Buys to Put Your Fitness Program in Over Drive
+Indexed: Short Story: Spacecraft Commanders
+Indexed: Millions of Women aren’t “Just Exaggerating”
+Indexed: Take Your Career in Germany Into Your Own Hands
+Indexed: Ingolspeakers, Ihr Public Speaking Club im Herzen von Ingolstadt
+Indexed: 4 Ways to Find the Elusive Meaning To Life
+Indexed: All things I want to learn
+Indexed: Leading a Data Science Project from Scratch
+Indexed: Tinder in a Small German Town
+Indexed: Narcs of Netflix
+Indexed: Start
+Indexed: The 5 Best Types of People on the Planet
+Indexed: Writing Lessons From Leo Tolstoy
+Indexed: A Python Hack to Half Your Work: Automate Your Execution
+Indexed: Short Story: Life has meaning
+Indexed: Dear People Who Re-read Your Own Articles All the Time…
+Indexed: Things I Tell Myself When I’m Not Writing
+Indexed: Every Writing Advice You Ever Got
+Indexed: Reference
+Indexed: Seven Fun Books Which Made Me a Better Data Analyst
+Indexed: Go to Belgium — The Dreamy, Beery, Chocolaty, Romance
+Indexed: Vande Bharat: The South Indian ICE Train Experience. But better.
+Indexed: Indian Mantra — Food for soul
+Indexed: Pro Tip: Nobody Buys Writing for the Writing of It
+Indexed: 5 Massively Overrated Bestsellers
+Indexed: Subtle Curry Arranged Marriages: Germany Edition
+Indexed: 10 Non-Fiction Books YOU MUST read before you die
+Indexed: How to Win Friends in 2020
+Traceback (most recent call last):
+  File "/home/sruthi_korlakunta/MediumPosts/knowledgeDB/ingest.py", line 34, in <module>
+    collection.add(
+  File "/home/sruthi_korlakunta/.local/lib/python3.12/site-packages/chromadb/api/models/Collection.py", line 116, in add
+    self._client._add(
+  File "/home/sruthi_korlakunta/.local/lib/python3.12/site-packages/chromadb/api/rust.py", line 454, in _add
+    return self.bindings.add(
+           ^^^^^^^^^^^^^^^^^^
+chromadb.errors.InternalError: Query error: Database error: error returned from database: (code: 1032) attempt to write a readonly database
